@@ -1,0 +1,24 @@
+
+.chatform {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-self: center;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-self: center;
+}
+
+input{
+    width: 20vw;
+    height:5vh;
+}

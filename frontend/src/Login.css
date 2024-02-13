@@ -1,0 +1,67 @@
+body {
+    background-color: #282c34;
+}
+
+.App {
+    text-align: left;
+    background-color: #282c34;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 20px;
+    color: white;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.input-group label {
+    margin-bottom: 0; 
+    margin-right: 2vw;
+    font-weight: bold;
+    color: #61dafb;
+    font-size: 16px;
+}
+
+.input-group input {
+    font-size: 16px;
+    padding: 8px;
+    width: 200px;
+    margin-left: auto; 
+}
+
+button {
+    margin-top: 10vh;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 12px 40px;
+    cursor: pointer;
+    align-self: center; 
+    background-color: #61dafb; 
+    color: white; 
+    border: 2px solid #000; 
+    border-radius: 15px;
+    box-shadow: 0 5px 0 #000; 
+    transition: transform 0.1s, box-shadow 0.1s; 
+    outline: none;  
+}
+
+button:hover {
+    box-shadow: 0 2px 0 #000;
+    transform: translateY(3px);
+}
